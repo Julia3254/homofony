@@ -1,0 +1,17 @@
+{
+  "version": "10.7.0",
+  "name": "fonetyka",
+  "description": "Przekształcanie wyrazów w języku polskim na zapis fonetyczny w standardach AS i IPA.",
+  "main": "rewrite.ts",
+  "type":"module",
+  "compilerOptions": {
+    "esModuleInterop":true
+  },
+  "scripts": {
+    "start": "ts-node rewrite.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^20.15.0",
+    "typescript": "^5.5.2"
+  }
+}
